@@ -100,7 +100,7 @@ def captcha():
 			pass
 		if str(usage) is 'h':
 			try:
-				apimodel = ['a','b','c','d']
+				apimodel = ['a','b','c']
 				keyusage = (random.choice(apimodel))
 				if str(keyusage) is 'a': 
 					value = r.recognize_houndify(audio, client_id = "909OS-u_VMMzcJm7Lkkq1g==", client_key = "oIZwTwHxvMjWVcCIxJEPmY159h72XcXsU8oUI_2ILkq_liYyrU5XBTjQN8bLKK4FhyGPfVUg0fPDh_iyURQC7A==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
@@ -112,10 +112,6 @@ def captcha():
 					pass			
 				if str(keyusage) is 'c': 
 					value = r.recognize_houndify(audio, client_id = "vN0JNeEuXcY4EEjB64RC-A==", client_key = "eauh8AbNL_uVQsTiQIYO-eNkdLnLGuf-hVUokOEJkfFO6mRS5nOy6We0EoHqxQ7fhT4xuFC_BO_TCR2cRFspHw==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
-				else:
-					pass			
-				if str(keyusage) is 'd': 
-					value = r.recognize_houndify(audio, client_id = "zc2qrXpIFxocUaZwKNUHbg==", client_key = "8M96oQu8iLri-PWpFJv7k6gSh0SUkwuHrpA3A6gAysEwYAhkZkNJQkDBjzb0sOGtxQCXYlY7IoZvQRFKu-1m2A==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
 				else:
 					pass
 				if str is bytes: 
