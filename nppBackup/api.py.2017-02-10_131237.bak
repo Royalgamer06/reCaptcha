@@ -1,2 +1,0 @@
-key  = open('api.txt', 'r').readlins()
-print(key[0])
