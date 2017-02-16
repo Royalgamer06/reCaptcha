@@ -60,7 +60,7 @@ def captcha():
 			pass
 		if str(usage) is 'w':
 			try:
-				value = r.recognize_wit(audio, key = "[KEY]")	#NOTICES : https://wit.ai/
+				value = r.recognize_wit(audio, key = "S7Q7D5MWGFXYIUR2AFSDTWDLNGY7HUAH")	#NOTICES : https://wit.ai/DarKWinGTM/MyFirstApp/settings
 				if str is bytes: 
 					result = u"{}".format(value).encode("utf-8")	
 				else: 
@@ -103,19 +103,19 @@ def captcha():
 				apimodel = ['a','b','c','d']
 				keyusage = (random.choice(apimodel))
 				if str(keyusage) is 'a': 
-					value = r.recognize_houndify(audio, client_id = "[ID]", client_key = "[KEY]")	#NOTICES : https://www.houndify.com/dashboard/detail/
+					value = r.recognize_houndify(audio, client_id = "909OS-u_VMMzcJm7Lkkq1g==", client_key = "oIZwTwHxvMjWVcCIxJEPmY159h72XcXsU8oUI_2ILkq_liYyrU5XBTjQN8bLKK4FhyGPfVUg0fPDh_iyURQC7A==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
 				else:
 					pass			
 				if str(keyusage) is 'b': 
-					value = r.recognize_houndify(audio, client_id = "[ID]", client_key = "[KEY]")	#NOTICES : https://www.houndify.com/dashboard/detail/
+					value = r.recognize_houndify(audio, client_id = "QjRdw2gaqFXwsd2Xmyi4bQ==", client_key = "-1YcaoyfRp68lJTSZt8G5wVR9Bsndc6PD49Kd9nWpjdfRnWCxFyTRgj2G0s4uy2Ks0OoV4KquCMB9WEZbO33dw==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
 				else:
 					pass			
 				if str(keyusage) is 'c': 
-					value = r.recognize_houndify(audio, client_id = "[ID]", client_key = "[KEY]")	#NOTICES : https://www.houndify.com/dashboard/detail/
+					value = r.recognize_houndify(audio, client_id = "vN0JNeEuXcY4EEjB64RC-A==", client_key = "eauh8AbNL_uVQsTiQIYO-eNkdLnLGuf-hVUokOEJkfFO6mRS5nOy6We0EoHqxQ7fhT4xuFC_BO_TCR2cRFspHw==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
 				else:
 					pass			
 				if str(keyusage) is 'd': 
-					value = r.recognize_houndify(audio, client_id = "[ID]", client_key = "[KEY]")	#NOTICES : https://www.houndify.com/dashboard/detail/
+					value = r.recognize_houndify(audio, client_id = "zc2qrXpIFxocUaZwKNUHbg==", client_key = "8M96oQu8iLri-PWpFJv7k6gSh0SUkwuHrpA3A6gAysEwYAhkZkNJQkDBjzb0sOGtxQCXYlY7IoZvQRFKu-1m2A==")	#NOTICES : https://www.houndify.com/dashboard/detail/eb9e6996-6eff-4456-aec9-977c1c248e4c
 				else:
 					pass
 				if str is bytes: 
